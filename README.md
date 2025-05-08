@@ -11,17 +11,20 @@
 ---
 
 ## 📁 Folder Structure
-<pre><code> /public └── assets/ # Static images used throughout the site 
-           /src ├── app/ # App Router entry point │ 
-                    ├── styles/ # Global styles (if needed) 
-                    └── page.tsx # Home page 
-           └── components/ # All reusable components 
-         /README.md 
-         /next.config.js 
-         /tailwind.config.js 
-         /postcss.config.js 
-         /tsconfig.json 
-         /package.json </code></pre>
+/public <br/>
+└── assets/ # Static images used throughout the site <br/>
+/src <br/>
+└── app/ # App Router entry point <br/>
+     └── styles/ # Global styles (if needed) <br/>
+     └── page.tsx # Home page <br/>
+└── components/ # All reusable components <br/>
+
+/README.md <br/>
+/next.config.js <br/>
+/tailwind.config.js <br/>
+/postcss.config.js <br/>
+/tsconfig.json <br/>
+/package.json <br/>
 
 
 ---
