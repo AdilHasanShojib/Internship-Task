@@ -7,7 +7,7 @@ export default function Footer() {
       }}
     >
       <div className="w-full max-w-[1140px] mx-auto flex flex-col lg:flex-row justify-between gap-12">
-        {/* Left Frame */}
+        
         <div className="flex flex-col gap-6 w-full lg:w-[521px]">
           <p className="text-lg md:text-xl font-normal leading-[120%] font-[Rethink Sans]">
             Have a project in mind?
@@ -23,7 +23,7 @@ export default function Footer() {
           </a>
         </div>
 
-        {/* Right Frame */}
+        
         <div className="flex flex-col justify-between items-start lg:items-end w-full lg:w-[358px]">
           <div className="flex flex-col gap-2 items-start lg:items-end">
             {['LinkedIn', 'GitHub', 'Facebook', 'Instagram', 'Twitter'].map((platform) => (

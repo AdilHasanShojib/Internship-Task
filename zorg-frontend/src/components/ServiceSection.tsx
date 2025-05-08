@@ -7,7 +7,7 @@ export default function ServiceSection() {
       style={{ backgroundImage: "url('/assets/background5.png')" }}
     >
       <div className="w-full max-w-[1140px]">
-        {/* Description Text */}
+       
         <p className="text-[28px] md:text-[40px] leading-[150%] font-medium font-rethink text-white/30 mb-12">
           We are a full-service studio creating transformative{' '}
           <span className="text-white">digital experiences and solutions.</span>{' '}

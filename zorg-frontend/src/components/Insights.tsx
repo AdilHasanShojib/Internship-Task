@@ -1,16 +1,15 @@
 'use client';
-
 import { ArrowUpRight } from "lucide-react";
 
 export default function Insights() {
   return (
-    // Insights Section
+    
     <section
       className="w-full bg-cover bg-center flex justify-center py-24 px-4 sm:px-6 lg:px-0"
       style={{ backgroundImage: "url('/assets/background4.png')" }}
     >
       <div className="w-full max-w-[1140px] flex flex-col gap-12">
-        {/* Top Frame */}
+        
         <div className="flex flex-col items-center gap-4 text-center">
           <h2 className="text-3xl md:text-5xl font-bold leading-[150%] tracking-[-1.1%] font-[Rethink Sans]">
             Featured Insights
@@ -20,7 +19,7 @@ export default function Insights() {
           </p>
         </div>
 
-        {/* Middle Frame */}
+        
         <div className="flex flex-col gap-4">
           {[1, 2, 3, 4, 5].map((num) => (
             <div
@@ -42,7 +41,7 @@ export default function Insights() {
           ))}
         </div>
 
-        {/* Footer Frame */}
+        
         <div className="w-full flex justify-center pt-8">
           <button
             className="rounded-[48px] px-6 md:px-8 py-4 md:py-5 text-white text-sm md:text-lg flex items-center gap-2"

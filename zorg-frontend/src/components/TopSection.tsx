@@ -1,4 +1,3 @@
-// Responsive version of TopSection
 'use client';
 import Image from 'next/image';
 
@@ -66,4 +65,3 @@ export default function TopSection() {
   );
 }
 
-// Remaining components will follow in the next updates.

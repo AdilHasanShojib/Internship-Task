@@ -11,7 +11,7 @@ export default function RecentWorks() {
         backgroundImage: "url('/assets/background4.png')",
       }}
     >
-      {/* Top Frame */}
+      
       <div className="w-full max-w-2xl text-center space-y-4">
         <h2 className="text-3xl md:text-4xl lg:text-[48px] font-bold leading-[150%] tracking-[-0.011em] font-[Rethink Sans]">
           Our Most Recent Works
@@ -21,7 +21,7 @@ export default function RecentWorks() {
         </p>
       </div>
 
-      {/* Middle Frame */}
+      
       <div className="w-full max-w-[1140px] space-y-10">
         {/* Top Two Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -90,7 +90,7 @@ export default function RecentWorks() {
         </div>
       </div>
 
-      {/* Footer Button */}
+      
       <button
         className="rounded-[48px] px-8 py-5 text-white text-lg flex items-center gap-2"
         style={{
